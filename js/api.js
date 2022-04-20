@@ -26,7 +26,7 @@ export class API {
                          setTimeout(() => {
                               UI.divMensajes.innerHTML = '';
                               UI.divMensajes.classList.remove('error');
-                              UI.formularioBuscar.reset();
+                              UI.spinner.classList.add('d-none')
                          }, 3000);
                     }
                })
